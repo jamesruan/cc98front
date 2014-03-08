@@ -9,41 +9,80 @@
 <script src="ebony/javascripts/google-code-prettify/prettify.js"></script>
 </head>
 <body>
-    <header "fp-head">
-        <div id="fp-main-logo">
-            <img src="">
+    <div class="grid">
+        <header id="fp-head" class="row">
+            <div id="fp-main-logo" class="c3">
+                <img src="">
+            </div>
+            <div id="fp-auth" class="c3 right" hidden>
+                <form id="fp-auth-form">
+                    <input type="text" name="username" placeholder="用户名">
+                    <input type="password" name="password" placeholder="密码">
+                </form>
+            </div>
+            <div id="fp-user-info" class="c3 right">
+                <figure id="user-logo-big">
+                    <img src="" alt="user-logo-big">
+                    <figcaption id="user-name">
+                        <p>Username</p>
+                    </figcaption>
+                </figure>
+                <div id="fp-utils">
+                    <ul id="fp-menu">
+                        <li id="about-me"><a href="to_some_page">关于我</a></li>
+                        <li id="about-website"><a href="to_some_page">关于论坛</a></li>
+                    </ul>
+                    <form id="search-form">
+                        <input type="text" name="search-term" placeholder="搜索">
+                        <img src="" alt="search">
+                    </form> 
+                </div<>
+           </div>
+        </header>
+      
+        <div id="fp-content" class="row">
+            <div id="fp-main" class="c10">
+                <div class="row">
+                    <div id="fp-recommand" class="c6">
+                        <ul id="fp-recommand_list">
+                            <li class="item-post">
+                                <a href="personal_home_page"></a>
+                                <p>short description</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="fp-custom" class="c6">
+                        <hr class="vertical">
+                        <h2 id="fp-cuntom-title">个人定制</h2>
+                        <ul id="fp-custom-list">
+                            <li class="fp-custom-list-item">
+                                <a href="post">title</a>
+                                <p>short description</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <aside id="fp-aside" class="c2">
+                <section id="fp-preview">
+                    <h2 id="fp-preview-title">预览</h2>
+                    <ul id="fp-preview-list">
+                        <li class="item-post">
+                            <a href="personal_home_page"></a>
+                            <p>short description</p>
+                        </li>
+                    </ul>
+                </section>
+                <div id="fp-ad">
+                    <img src="">
+                </div>
+            </aside>
         </div>
-        <div id="fp-auth" hidden>
-            <form id="fp-auth-form">
-                <input type="text" name="username" placeholder="用户名">
-                <input type="password" name="password" placeholder="密码">
-            </form>
-        </div>
-        <div id="fp-user-info">
-            <figure id="user-logo-big">
-                <img src="" alt="user-logo-big">
-                <figcaption id="user-name">
-                    <p>Username</p>
-                </figcaption>
-            </figure>
-            <div id="fp-utils">
-                <ul id="fp-menu">
-                    <li id="about-me"><a href="to_some_page">关于我</a></li>
-                    <li id="about-website"><a href="to_some_page">关于论坛</a></li>
-                </ul>
-                <form id="search-form">
-                    <input type="text" name="search-term" placeholder="搜索">
-                    <img src="" alt="search">
-                </form> 
-            </div<>
-       </div>
-    </header>
-    <div id="fp-content">
-    </div>
-    <aside id="fp-aside">
-        <section id="fp-preview">
-        </section>
-    </aside>
 
+        <footer id="others" class="row">
+
+        </footer>
+    </div>
 </body>
 </html>
