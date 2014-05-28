@@ -1,0 +1,101 @@
+\h3{Design: User Cases}
+
+The table following briefed the basic user cases, functions with more * have higer priority.
+
+\table[basic user cases]{begin}
+\r{ \h users care about
+    \h needs
+    \h deeper needs
+    \h we provide
+    \h comments }
+\r{ \dr2 intersting topics
+    \dr2 info that I picked
+    \d explicitly chosen
+    \d subscribing topic groups **
+    \d }
+\r{ 
+
+    \d implicitly preffered
+    \d recommendation based on personal page hit/staying history *
+    \d
+}
+\r{ \dr2 searching info
+    \dr2 info that relate to what I typed
+    \d topic (super topic)
+    \d search by topic (super topic) ***
+    \dr2 unified search tool }
+\r{
+
+    \d user
+    \d search by user ***
+
+}
+\r{ \dr3 browsing
+    \dr3 random info
+    \d hot topics
+    \d recommendation based on public page hit/staying history *
+    \d replace 十大
+}
+\r{
+
+    \d important announcements or publicities
+    \d recommendation based on recent announcements and publicities **
+    \d }
+\r{
+
+    \d sequential view topic by post time and groups
+    \d traditional topic lists ***
+    \d }
+\r{ \dr9 social interaction \newline (Because forum is a public place, any private social interaction is discouraged. We provides only basic SNS element and designs no further improvments as long as we are designing a forum.)
+    \dr3 short messages
+    \d contact list
+    \d contacts can be manually added ***
+    \dr6 Unified messaging and notification system }
+\r {
+
+    \d view previous messages
+    \d message boxes (in/out) size limited ***
+
+}
+\r {
+
+    \d be notified of coming message
+    \d short message notification ***
+
+}
+\r {
+    \dr3 @some_user
+    \d AT user in contact list
+    \d auto-complete when \@@\@ is typed **
+    
+}
+\r {
+
+    \d be notified of coming AT
+    \d treat AT as a special message **
+
+}
+\r {
+
+    \d block unwanted AT
+    \d able to set up a 'receive from' list and blocks those whose sender is not on the list **
+
+}
+\r{ \dr3 #some_super_topic
+    \dr3 involve in super topics that exsits across categorical groups
+    \d create new super topic *
+    \d
+}
+\r{
+
+    \d search super topic *
+    \d unified search tool
+}
+\r{
+
+    \d click to show topics under the same super topic *
+    \d super topic lists
+}
+
+\table{end}
+
