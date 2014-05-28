@@ -1,0 +1,3 @@
+[submodule "ebony"]
+	path = ebony
+	url = https://github.com/jamesruan/ebony.git
