@@ -46,7 +46,7 @@ The table following briefed the basic user cases, functions with more * have hig
     \d sequential view topic by post time and groups
     \d traditional topic lists ***
     \d }
-\r{ \dr9 social interaction \newline (Because forum is a public place, any private social interaction is discouraged. We provides only basic SNS element and designs no further improvments as long as we are designing a forum.)
+\r{ \dr9 social interaction (\abbr[Because forum is a public place, any private social interaction is discouraged. We provides only basic SNS element and designs no further improvments as long as we are designing a forum.]{consideration})
     \dr3 short messages
     \d contact list
     \d contacts can be manually added ***
@@ -95,6 +95,27 @@ The table following briefed the basic user cases, functions with more * have hig
 
     \d click to show topics under the same super topic *
     \d super topic lists
+}
+
+\r{ \dr3 posting
+    \dr2 emotion releasing
+    \d temporary feeling  (unstructed: e.g. 郁闷小屋) need to be shared and cared
+    \d simplified threads.
+    \d
+}
+
+\r{
+
+    \d temporary feeling (structed: e.g. 永恒瞬间) need to be record and remembered (also be shared and cared), often post with music.
+    \d new \link[Markup Language]{http://jamesruan.github.io/ebony/ml.html} for verse and better piece of words.
+    \dr2 need carefully design a learning tutorial for the \link[Markup Language]{http://jamesruan.github.io/ebony/ml.html} for purposes like these.
+}
+
+\r{
+    \dr3 information sharing
+    \d trading info (e.g. 交易代理), mating (e.g. 缘分天空), activity posting (e.g. 各类民间活动).
+    \d new \link[Markup Language]{http://jamesruan.github.io/ebony/ml.html} for better publicity (image and text).
+
 }
 
 \table{end}
