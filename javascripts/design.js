@@ -3,7 +3,7 @@ var jsml=require('jsml-jquery');
 var grammar = require('../ebony/javascripts/grammar.js');
 
 function get_file(url){
-    var string = $.ajax({url: url,async: false
+    var string = $.ajax({url: url, async: false, cache: false
     }).responseText;
     return string;
 }
