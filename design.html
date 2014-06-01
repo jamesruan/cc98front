@@ -4,25 +4,40 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>设计与思考</title>
-<link rel="stylesheet" type="text/css" href="ebony/stylesheets/main_ebony.css" media="all">
+<link id="main_css" rel="stylesheet" type="text/css" href="ebony/stylesheets/main_ebony.css" media="all">
 <script src="ebony/javascripts/bundle.min.js"></script>
 <script src="javascripts/design.min.js"></script>
 <script>
+    function toggle_theme(){
+        var ebony = "ebony/stylesheets/main_ebony.css";
+        var ivory = "ebony/stylesheets/main_ivory.css";
+        var $ = require('jquery');
+        if($("#main_css").attr("href") === ebony){
+            $("#main_css").attr("href", ivory);
+        }else{
+            $("#main_css").attr("href", ebony);
+        }
+    }
 </script>
 </head>
 <body>
     <div class="grid">
         <header class="row">
+            <h2> 设计与思考 <small>从cc98.org的UX设计谈起</small></h2>
+            <a href="javascript: toggle_theme();">更换主题</a>
         </header>
 
         <main class="row">
             <div class="c3">
                 <nav class="row">
-                    <a class="content-target" href="#" title="user_case.ml.js">User Cases</a>
+                    <ul>
+                        <li><a class="content-target" href="#" title="user_case.ml.js">User Cases</a> </li>
+                    </ul>
                 </nav>
             </div>
             <div class="c9">
                 <section id="content" class="row">
+                    <p>这里记录了关于cc98.org的UX设计的点点滴滴</p>
                 </section>
             </div>
         </main>
